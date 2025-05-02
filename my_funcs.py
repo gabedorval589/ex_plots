@@ -4,8 +4,8 @@ def get_user():
     fav_desert  = input("What is your favorite desert? ")
     return(user_name, dob, fav_desert)
 
-user_info = get_user()
-print(user_info)
+# user_info = get_user()
+# print(user_info)
 
 def build_dict(user_info ):
     name, dob, desert = user_info
@@ -16,5 +16,8 @@ def build_dict(user_info ):
     }
     return my_dict
 
-response = build_dict(user_info)
-print(response)
+# response = build_dict(user_info)
+# print(response)
+
+if __name__ == "__main__":
+    pass
