@@ -1,12 +1,9 @@
 import matplotlib.pyplot as plt
-from pprint import pprint
 from my_funcs import build_dict
-
-#my_funcs.get_user()
 
 test = ('Carissa', '12/10/01', 'mangoes') 
 res = build_dict(test)
-print(res)
+
 print(f"The user details is as follows: {res}")
 
 x_values =[0, 1, 2, 3, 4, 5]
